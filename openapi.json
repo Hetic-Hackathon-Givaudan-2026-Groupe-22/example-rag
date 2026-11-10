@@ -1,0 +1,404 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Sillage – API Data (G22 Auralis)",
+    "description": "Contrat d'interface entre l'équipe Data et l'équipe Tech pour Sillage, le détecteur de tendances (Givaudan AI Innovation Challenge, thème 3).\n\nPhase actuelle : **dummy**. Les réponses sont factices mais respectent le format final. Exemples fixes : `pistache`, `dalgona`, `matcha`.\n\nVia ngrok, ajouter l'en-tête `ngrok-skip-browser-warning: true`.",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/sillage/score": {
+      "post": {
+        "tags": [
+          "sillage (dummy)"
+        ],
+        "summary": "Score",
+        "description": "Score buzz / durable, verdict proposé et matières liées. **Valeurs factices (Gate 1).**",
+        "operationId": "score_sillage_score_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScoreRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScoreResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sillage/health": {
+      "get": {
+        "tags": [
+          "sillage (dummy)"
+        ],
+        "summary": "Health",
+        "description": "Vérifie que le service Data Sillage répond.",
+        "operationId": "health_sillage_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Health Sillage Health Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Argument": {
+        "properties": {
+          "texte": {
+            "type": "string",
+            "title": "Texte"
+          },
+          "source": {
+            "type": "string",
+            "title": "Source"
+          }
+        },
+        "type": "object",
+        "required": [
+          "texte",
+          "source"
+        ],
+        "title": "Argument"
+      },
+      "Composantes": {
+        "properties": {
+          "duree": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Duree",
+            "description": "La hausse dure-t-elle ?"
+          },
+          "geographie": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Geographie",
+            "description": "Combien de pays touchés ?"
+          },
+          "categories": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Categories",
+            "description": "Combien de catégories de produits ?"
+          },
+          "lancements": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Lancements",
+            "description": "Produits arrivés en rayon"
+          },
+          "matiere": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Matiere",
+            "description": "Tension sur les matières premières"
+          }
+        },
+        "type": "object",
+        "required": [
+          "duree",
+          "geographie",
+          "categories",
+          "lancements",
+          "matiere"
+        ],
+        "title": "Composantes"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "Matiere": {
+        "properties": {
+          "nom": {
+            "type": "string",
+            "title": "Nom"
+          },
+          "origine": {
+            "type": "string",
+            "title": "Origine"
+          },
+          "risque_prix": {
+            "type": "string",
+            "enum": [
+              "faible",
+              "moyen",
+              "élevé",
+              "inconnu"
+            ],
+            "title": "Risque Prix"
+          },
+          "variation_prix_12m_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Variation Prix 12M Pct"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source"
+          }
+        },
+        "type": "object",
+        "required": [
+          "nom",
+          "origine",
+          "risque_prix"
+        ],
+        "title": "Matiere"
+      },
+      "ScoreRequest": {
+        "properties": {
+          "tendance": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Tendance",
+            "examples": [
+              "pistache"
+            ]
+          },
+          "zone": {
+            "type": "string",
+            "title": "Zone",
+            "default": "Europe",
+            "examples": [
+              "Europe"
+            ]
+          },
+          "periode_mois": {
+            "type": "integer",
+            "maximum": 120.0,
+            "minimum": 3.0,
+            "title": "Periode Mois",
+            "description": "Fenêtre d'observation en mois",
+            "default": 24
+          },
+          "categorie": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Categorie",
+            "examples": [
+              "sucré"
+            ]
+          },
+          "date_figee": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Date Figee",
+            "description": "Mode rejoué : seules les données antérieures à cette date sont utilisées"
+          },
+          "masquer_nom": {
+            "type": "boolean",
+            "title": "Masquer Nom",
+            "description": "Mode preuve : le nom de la tendance est caché aux agents",
+            "default": false
+          }
+        },
+        "type": "object",
+        "required": [
+          "tendance"
+        ],
+        "title": "ScoreRequest"
+      },
+      "ScoreResponse": {
+        "properties": {
+          "tendance": {
+            "type": "string",
+            "title": "Tendance"
+          },
+          "zone": {
+            "type": "string",
+            "title": "Zone"
+          },
+          "date_donnees": {
+            "type": "string",
+            "format": "date",
+            "title": "Date Donnees"
+          },
+          "score": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Score",
+            "description": "Score buzz (0) / durable (100), calculé par le code"
+          },
+          "composantes": {
+            "$ref": "#/components/schemas/Composantes"
+          },
+          "verdict_propose": {
+            "type": "string",
+            "enum": [
+              "suivre",
+              "surveiller",
+              "ignorer"
+            ],
+            "title": "Verdict Propose"
+          },
+          "confiance": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confiance"
+          },
+          "arguments": {
+            "items": {
+              "$ref": "#/components/schemas/Argument"
+            },
+            "type": "array",
+            "title": "Arguments"
+          },
+          "matieres": {
+            "items": {
+              "$ref": "#/components/schemas/Matiere"
+            },
+            "type": "array",
+            "title": "Matieres"
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "dummy",
+              "reel"
+            ],
+            "title": "Mode",
+            "default": "dummy"
+          }
+        },
+        "type": "object",
+        "required": [
+          "tendance",
+          "zone",
+          "date_donnees",
+          "score",
+          "composantes",
+          "verdict_propose",
+          "confiance",
+          "arguments",
+          "matieres"
+        ],
+        "title": "ScoreResponse"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8000",
+      "description": "Local"
+    },
+    {
+      "url": "https://REMPLACER.ngrok-free.app",
+      "description": "Tunnel ngrok (Gate 1)"
+    }
+  ]
+}

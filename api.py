@@ -10,6 +10,7 @@ from pydantic import BaseModel, Field
 
 import config
 import rag
+from sillage_dummy import router as sillage_router
 
 SYSTEM_PROMPT = """Tu es un conteur bienveillant qui répond aux questions d'enfants sur une histoire.
 Règles :
@@ -24,6 +25,8 @@ app = FastAPI(
                 "Les réponses sont générées par un LLM Ollama à partir des passages retrouvés.",
     version="1.0.0",
 )
+
+app.include_router(sillage_router)
 
 
 class AskRequest(BaseModel):
