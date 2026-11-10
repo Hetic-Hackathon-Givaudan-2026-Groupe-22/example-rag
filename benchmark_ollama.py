@@ -1,10 +1,5 @@
 """Benchmark reproductible de LLM Ollama sur le RAG example-rag (G22 Auralis).
 
-Lancer depuis la racine du dépôt, une fois ingest.py exécuté :
- python benchmark_ollama.py --models qwen2.5:1.5b qwen3.5:2b-q4_K_M
-
-Aucune note qualitative n'est inventée : la correspondance de mots-clés est
-un indicateur automatique APPROXIMATIF ; les réponses sont à évaluer manuellement.
 """
 from __future__ import annotations
 
