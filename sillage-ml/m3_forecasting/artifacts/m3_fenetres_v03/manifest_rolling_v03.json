@@ -1,0 +1,32 @@
+{
+  "input": "data/processed/m3_30_foods_geo_2019_2026.csv",
+  "input_sha256": "c4e387f9750d4eab3e3ac40d1e7c342f70388ee476b677daa531dcbc4b979f63",
+  "timestamp_utc": "2026-11-12T14:27:29.576818+00:00",
+  "code_version": "m3_v0.3_rolling",
+  "python": "3.13.5",
+  "cutoffs": [
+    "2024-01",
+    "2024-04",
+    "2024-07",
+    "2024-10",
+    "2025-01",
+    "2025-04",
+    "2025-07",
+    "2025-10",
+    "2026-01",
+    "2026-04",
+    "2026-07"
+  ],
+  "selection_model_from_v02": "last_value",
+  "future_observations_accessed_by_states": false,
+  "dynamic_m2_retrained": false,
+  "outputs_sha256": {
+    "rolling_states_monthly.csv": "3b68186fde0251e2af9768c5ffb998e4c667e78d13b5899e3da03393cf071ad3",
+    "rolling_states_latest.csv": "719fea2802c7a02bbce86a0fd9732416db47051ff92d8b3b191d8d5755cde138",
+    "forecast_last_value_with_state.csv": "bf7a970cb9798b3aeb0d2637bde8990249d374fb7852fa90134a617bdf6c989b",
+    "backtest_last_value_by_state.csv": "6275fb240b4030805d1d5eb7440a970af3ab52cf2f4323a22b08caf432b2fde4",
+    "metrics_last_value_by_state.csv": "ea8986561a181e7251e72cd544517b48bba52ae256df96f37f041abd5ec3a880",
+    "metrics_last_value_by_split.csv": "3a0720b246cfaf60107e1a71f8c972f14ab33440ee3d616f0a7ec4a0c813562b",
+    "metrics_rolling_v03.json": "b7186bf6303fdd4b4183b1be6f45e63c76ab8484547ac3028e53ea6b7450dc65"
+  }
+}

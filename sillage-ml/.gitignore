@@ -1,0 +1,24 @@
+# Environnements locaux et secrets
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+# Exports bruts de collecte non inclus
+lot02_google_trends/data/raw/
+lot01_wikipedia_cleaning/raw/observations_wikipedia.parquet
+lot01_wikipedia_cleaning/raw/observations_wikipedia_extracted.csv
+
+# Les fichiers sources sont conserves en local mais non publies sans accord de redistribution
+m2_classifier_v2/data/raw/
+m2_classifier_v2/data/source/
+m3_forecasting/data/input/
+m5_rag_prototype/chroma_db/

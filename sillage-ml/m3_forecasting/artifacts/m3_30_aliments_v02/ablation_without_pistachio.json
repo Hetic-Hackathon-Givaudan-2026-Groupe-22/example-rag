@@ -1,0 +1,52 @@
+{
+  "status": "ablation_excluding_provisional_pistachio",
+  "n_ingredients": 29,
+  "n_country_series": 131,
+  "selected_on_selection_folds": "last_value",
+  "selection": {
+    "holt_damped": {
+      "mae": 7.9714,
+      "rmse": 15.2415,
+      "n_predictions": 3930
+    },
+    "last_value": {
+      "mae": 7.4298,
+      "rmse": 15.0058,
+      "n_predictions": 3930
+    },
+    "ridge_direct": {
+      "mae": 8.1731,
+      "rmse": 15.7014,
+      "n_predictions": 3930
+    },
+    "seasonal_naive_12": {
+      "mae": 10.6228,
+      "rmse": 20.3339,
+      "n_predictions": 3930
+    }
+  },
+  "holdout": {
+    "holt_damped": {
+      "mae": 13.6549,
+      "rmse": 22.2573,
+      "n_predictions": 393
+    },
+    "last_value": {
+      "mae": 10.9046,
+      "rmse": 19.6707,
+      "n_predictions": 393
+    },
+    "ridge_direct": {
+      "mae": 12.2846,
+      "rmse": 21.6323,
+      "n_predictions": 393
+    },
+    "seasonal_naive_12": {
+      "mae": 10.4198,
+      "rmse": 20.6003,
+      "n_predictions": 393
+    }
+  },
+  "same_normalization_window_for_all_reference_series": true,
+  "not_a_prospective_test": true
+}

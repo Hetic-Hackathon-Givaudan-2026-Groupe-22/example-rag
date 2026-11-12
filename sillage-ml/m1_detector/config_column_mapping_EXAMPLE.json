@@ -1,0 +1,11 @@
+{
+  "Ingredient": "ingredient",
+  "Pays": "country",
+  "Semaine": "date",
+  "Indice": "value",
+  "Origine": "source",
+  "TypeMesure": "metric",
+  "PerimetreNormalisation": "normalization_scope",
+  "Simule": "is_synthetic",
+  "Lien": "source_url"
+}

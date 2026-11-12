@@ -1,0 +1,86 @@
+{
+  "status": "experimental",
+  "version": "m3_v0.2",
+  "forecast_horizon_months": 3,
+  "model_selected_on_selection_folds": "last_value",
+  "model_selection_criterion": "MAE micro par prédiction sur les folds de sélection ; holdout exclu de la sélection",
+  "n_series": 136,
+  "n_ingredients": 30,
+  "n_monthly_observations": 12784,
+  "n_selection_origins": 10,
+  "holdout_origin": "2026-07",
+  "last_data_month": "2026-10",
+  "data_partitions": {
+    "historical_reference_29": 131,
+    "pistachio_p0_provisional": 5
+  },
+  "selection_metrics": {
+    "holt_damped": {
+      "mae": 8.1532,
+      "rmse": 15.3727,
+      "bias": -1.6108,
+      "n_predictions": 4080
+    },
+    "last_value": {
+      "mae": 7.6517,
+      "rmse": 15.2725,
+      "bias": -1.448,
+      "n_predictions": 4080
+    },
+    "ridge_direct": {
+      "mae": 8.3804,
+      "rmse": 15.8695,
+      "bias": -0.5627,
+      "n_predictions": 4080
+    },
+    "seasonal_naive_12": {
+      "mae": 10.7967,
+      "rmse": 20.3898,
+      "bias": -4.9538,
+      "n_predictions": 4080
+    }
+  },
+  "holdout_metrics": {
+    "holt_damped": {
+      "mae": 13.5714,
+      "rmse": 22.1151,
+      "bias": 6.3231,
+      "n_predictions": 408
+    },
+    "last_value": {
+      "mae": 10.9743,
+      "rmse": 19.7728,
+      "bias": 2.2365,
+      "n_predictions": 408
+    },
+    "ridge_direct": {
+      "mae": 12.1589,
+      "rmse": 21.3696,
+      "bias": 5.0704,
+      "n_predictions": 408
+    },
+    "seasonal_naive_12": {
+      "mae": 10.1593,
+      "rmse": 20.2431,
+      "bias": -5.5882,
+      "n_predictions": 408
+    }
+  },
+  "selection_topic_macro_mae": {
+    "holt_damped": 7.8948,
+    "last_value": 7.5061,
+    "ridge_direct": 8.0151,
+    "seasonal_naive_12": 10.2519
+  },
+  "holdout_topic_macro_mae": {
+    "holt_damped": 13.3435,
+    "last_value": 10.726,
+    "ridge_direct": 11.7454,
+    "seasonal_naive_12": 9.8518
+  },
+  "label_used_as_feature": false,
+  "scope_warning": "Google Trends 0-100 relatifs par requête, géographie et fenêtre de normalisation. Aucune agrégation des pays en volumes de demande.",
+  "normalization_warning": "Référentiel 2014-2026; pistache P0 2019-2026. Le dénominateur de normalisation inclut potentiellement des périodes postérieures aux origines de backtest. Ce test ne peut PAS prouver une anticipation sans fuite d’information de normalisation.",
+  "scientific_warning": "Étude rétrospective sur données de collecte; 30 aliments avec pistache provisoire; backtest chronologique mais normalisations a posteriori. Pas de preuve prospective.",
+  "ablation_no_pistachio_selected_model": "last_value"
+}

@@ -1,0 +1,202 @@
+{
+  "version": "2.1.0-comparison-experimental",
+  "evaluation": "leave_one_topic_out_retrospective",
+  "reference_topics_total": 30,
+  "food_cases_evaluated": 30,
+  "class_counts": {
+    "buzz": 15,
+    "tendance": 15
+  },
+  "comparison": {
+    "Logistic Regression": {
+      "n_cases": 30,
+      "correct": 28,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333333,
+      "f1_macro": 0.9333333333333333,
+      "precision_buzz": 0.9333333333333333,
+      "recall_buzz": 0.9333333333333333,
+      "precision_tendance": 0.9333333333333333,
+      "recall_tendance": 0.9333333333333333,
+      "roc_auc": 0.9955555555555555,
+      "brier_score": 0.03873425650969882,
+      "confusion_buzz_tendance": {
+        "TN": 14,
+        "FP": 1,
+        "FN": 1,
+        "TP": 14
+      },
+      "errors": [
+        "butter_board",
+        "dubai_chocolate"
+      ]
+    },
+    "Random Forest": {
+      "n_cases": 30,
+      "correct": 29,
+      "accuracy": 0.9666666666666667,
+      "balanced_accuracy": 0.9666666666666667,
+      "f1_macro": 0.9666295884315907,
+      "precision_buzz": 0.9375,
+      "recall_buzz": 1.0,
+      "precision_tendance": 1.0,
+      "recall_tendance": 0.9333333333333333,
+      "roc_auc": 0.9955555555555555,
+      "brier_score": 0.030632159353453037,
+      "confusion_buzz_tendance": {
+        "TN": 15,
+        "FP": 0,
+        "FN": 1,
+        "TP": 14
+      },
+      "errors": [
+        "dubai_chocolate"
+      ]
+    },
+    "XGBoost": {
+      "n_cases": 30,
+      "correct": 27,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.9,
+      "f1_macro": 0.899888765294772,
+      "precision_buzz": 0.9285714285714286,
+      "recall_buzz": 0.8666666666666667,
+      "precision_tendance": 0.875,
+      "recall_tendance": 0.9333333333333333,
+      "roc_auc": 0.8088888888888889,
+      "brier_score": 0.09159447539980545,
+      "confusion_buzz_tendance": {
+        "TN": 13,
+        "FP": 2,
+        "FN": 1,
+        "TP": 14
+      },
+      "errors": [
+        "butter_board",
+        "dubai_chocolate",
+        "whipped_lemonade"
+      ]
+    }
+  },
+  "always_buzz_baseline": {
+    "n_cases": 30,
+    "correct": 15,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.3333333333333333,
+    "precision_buzz": 0.5,
+    "recall_buzz": 1.0,
+    "precision_tendance": 0.0,
+    "recall_tendance": 0.0,
+    "roc_auc": 0.5,
+    "brier_score": 0.5,
+    "confusion_buzz_tendance": {
+      "TN": 15,
+      "FP": 0,
+      "FN": 15,
+      "TP": 0
+    },
+    "errors": [
+      "acai_bowl",
+      "birria",
+      "cold_brew_coffee",
+      "dubai_chocolate",
+      "espresso_martini",
+      "gochujang",
+      "hot_honey",
+      "kombucha",
+      "matcha",
+      "mochi",
+      "oat_milk",
+      "pistachio",
+      "poke_bowl",
+      "ube",
+      "yuzu"
+    ]
+  },
+  "sensitivity_without_provisional_pistachio": {
+    "Logistic Regression": {
+      "n_cases": 29,
+      "correct": 27,
+      "accuracy": 0.9310344827586207,
+      "balanced_accuracy": 0.930952380952381,
+      "f1_macro": 0.930952380952381,
+      "precision_buzz": 0.9333333333333333,
+      "recall_buzz": 0.9333333333333333,
+      "precision_tendance": 0.9285714285714286,
+      "recall_tendance": 0.9285714285714286,
+      "roc_auc": 0.9952380952380953,
+      "brier_score": 0.04142947992525858,
+      "confusion_buzz_tendance": {
+        "TN": 14,
+        "FP": 1,
+        "FN": 1,
+        "TP": 13
+      },
+      "errors": [
+        "butter_board",
+        "dubai_chocolate"
+      ]
+    },
+    "Random Forest": {
+      "n_cases": 29,
+      "correct": 28,
+      "accuracy": 0.9655172413793104,
+      "balanced_accuracy": 0.9642857142857143,
+      "f1_macro": 0.9653524492234169,
+      "precision_buzz": 0.9375,
+      "recall_buzz": 1.0,
+      "precision_tendance": 1.0,
+      "recall_tendance": 0.9285714285714286,
+      "roc_auc": 0.9904761904761905,
+      "brier_score": 0.03256880565303953,
+      "confusion_buzz_tendance": {
+        "TN": 15,
+        "FP": 0,
+        "FN": 1,
+        "TP": 13
+      },
+      "errors": [
+        "dubai_chocolate"
+      ]
+    },
+    "XGBoost": {
+      "n_cases": 29,
+      "correct": 26,
+      "accuracy": 0.896551724137931,
+      "balanced_accuracy": 0.8976190476190476,
+      "f1_macro": 0.896551724137931,
+      "precision_buzz": 0.9285714285714286,
+      "recall_buzz": 0.8666666666666667,
+      "precision_tendance": 0.8666666666666667,
+      "recall_tendance": 0.9285714285714286,
+      "roc_auc": 0.8047619047619048,
+      "brier_score": 0.09429104091080988,
+      "confusion_buzz_tendance": {
+        "TN": 13,
+        "FP": 2,
+        "FN": 1,
+        "TP": 13
+      },
+      "errors": [
+        "butter_board",
+        "dubai_chocolate",
+        "whipped_lemonade"
+      ]
+    }
+  },
+  "selected_candidate": "Random Forest",
+  "selection_basis": "max LOOTO F1 macro, tie favors simpler model; no independent test set",
+  "warnings": [
+    "M2 caractérise des trajectoires complètes 2019–2026 : AUCUNE prédiction pré-pic validée.",
+    "Les labels ont été fournis par l'équipe, non vérifiés indépendamment.",
+    "Le label tendance de pistachio est PROVISOIRE (hypothèse de travail).",
+    "La normalisation Google Trends de pistachio P0 diffère de l'historique de référence.",
+    "Choisir le meilleur des 3 sur ces mêmes 30 cas introduit un biais de sélection.",
+    "Les scores retournés par les modèles ne sont pas des probabilités calibrées.",
+    "La taille n=30 rend l'incertitude importante ; les mois ne sont pas des exemples indépendants.",
+    "Les sujets ont été choisis par l'équipe et peuvent être particulièrement faciles à séparer a posteriori.",
+    "WORLD est exclu ; whipped_lemonade n'a qu'un seul pays exploitable.",
+    "Les features incluent des mois futurs par rapport à une date historique T éventuelle."
+  ]
+}

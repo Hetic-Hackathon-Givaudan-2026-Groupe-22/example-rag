@@ -1,0 +1,16 @@
+{
+  "created_date": "2026-11-12",
+  "decision": "replacement_of_out_of_scope_oud_with_pistachio_provisional",
+  "new_topic": "pistachio",
+  "proposed_label": "tendance",
+  "proposed_label_verified": false,
+  "n_countries": 5,
+  "n_months_each": 94,
+  "n_added_rows": 564,
+  "removed_topic": "oud",
+  "n_removed_rows": 564,
+  "original_reference_sha256": "4b344cd09a62beb7847641b8ff2967501819f195c200c59447977d6021103412",
+  "source_p0_sha256": "36ea7b76860d6d9aa189f2d9aa67959724ee24813e09dbe293aced136636b6cf",
+  "provisional_reference_sha256": "063b03264ddcbdd17d4aa1bc0a11dbfb13dd76bc421c7b71326dcc4e32fc5709",
+  "normalization_warning": "P0 2019-2026 vs historical reference 2014-2026 exported then clipped to 2019-2026"
+}

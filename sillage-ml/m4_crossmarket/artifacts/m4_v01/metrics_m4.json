@@ -1,0 +1,29 @@
+{
+  "status": "experimental",
+  "version": "m4_v0.1",
+  "n_ingredients": 30,
+  "n_country_series": 136,
+  "n_observations": 12784,
+  "n_countries_total": 5,
+  "n_country_series_signal_detected": 104,
+  "n_topics_comparable_min_two_countries": 22,
+  "n_topics_leader_stable_across_thresholds": 13,
+  "n_topics_need_review": 26,
+  "n_topics_multiple_tied_first": 6,
+  "thresholds_exploratory": {
+    "baseline_months": 12,
+    "recent_months": 3,
+    "min_confirming_months": 2,
+    "min_increase_points": 8.0,
+    "relative_threshold": 0.35,
+    "mad_multiplier": 2.0
+  },
+  "sensitivity_min_points": [
+    6.0,
+    8.0,
+    12.0
+  ],
+  "interpretation": "first confirmed relative-rise within observed data; no causal diffusion, no absolute market sizes",
+  "critical_warning": "normalization uses 2014/2019–2026 including future after historical origin; retrospective chronology ONLY",
+  "validation": "no independent onset ground truth; no precision/recall established"
+}

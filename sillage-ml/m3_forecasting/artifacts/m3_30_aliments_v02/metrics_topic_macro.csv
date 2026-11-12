@@ -1,0 +1,9 @@
+split,model,mae_macro_per_ingredient,n_ingredients
+final_holdout,holt_damped,13.343530198104121,30
+final_holdout,last_value,10.726018518518519,30
+final_holdout,ridge_direct,11.745431119750556,30
+final_holdout,seasonal_naive_12,9.85175925925926,30
+selection,holt_damped,7.894751277924503,30
+selection,last_value,7.5060925925925925,30
+selection,ridge_direct,8.01511535243964,30
+selection,seasonal_naive_12,10.251870370370371,30

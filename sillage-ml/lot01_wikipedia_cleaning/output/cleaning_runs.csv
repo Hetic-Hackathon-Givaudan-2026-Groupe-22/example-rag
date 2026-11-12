@@ -1,0 +1,2 @@
+﻿run_id,script_version,source_sha256,n_raw,n_clean,n_eligible,n_quarantine,n_invalid,status
+20261112T094634Z_3596fc9671,1.1.0,3596fc9671e2bc9c59c9d851db9c0264631af855ec7848e43106f30a49393741,15212,15212,12690,2522,0,success

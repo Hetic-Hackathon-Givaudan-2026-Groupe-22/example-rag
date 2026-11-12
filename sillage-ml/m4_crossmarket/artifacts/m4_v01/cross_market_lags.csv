@@ -1,0 +1,105 @@
+ingredient,country,first_signal_month,lag_months_after_first_observed,is_tied_first,first_markets_tied,n_countries_available,n_countries_with_signal,source_url,query_original,normalization_scope,queries_differ_between_countries,early_boundary_flag
+acai_bowl,FR,2020-06,0,True,FR,5,3,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=acai%20bowl,acai bowl,gt_reference_2014_2026_acai_bowl_FR,False,True
+acai_bowl,KR,2020-07,1,False,FR,5,3,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=acai%20bowl,acai bowl,gt_reference_2014_2026_acai_bowl_KR,False,True
+acai_bowl,JP,2021-03,9,False,FR,5,3,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=acai%20bowl,acai bowl,gt_reference_2014_2026_acai_bowl_JP,False,False
+baked_feta_pasta,AE,2021-03,0,True,AE;FR;US,5,3,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=baked%20feta%20pasta,baked feta pasta,gt_reference_2014_2026_baked_feta_pasta_AE,False,False
+baked_feta_pasta,FR,2021-03,0,True,AE;FR;US,5,3,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=baked%20feta%20pasta,baked feta pasta,gt_reference_2014_2026_baked_feta_pasta_FR,False,False
+baked_feta_pasta,US,2021-03,0,True,AE;FR;US,5,3,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=baked%20feta%20pasta,baked feta pasta,gt_reference_2014_2026_baked_feta_pasta_US,False,False
+birria,US,2020-05,0,True,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=birria,birria,gt_reference_2014_2026_birria_US,False,True
+birria,JP,2020-06,1,False,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=birria,birria,gt_reference_2014_2026_birria_JP,False,True
+birria,AE,2021-01,8,False,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=birria,birria,gt_reference_2014_2026_birria_AE,False,False
+birria,FR,2021-02,9,False,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=birria,birria,gt_reference_2014_2026_birria_FR,False,False
+birria,KR,2021-05,12,False,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=birria,birria,gt_reference_2014_2026_birria_KR,False,False
+butter_board,US,2022-10,0,True,US,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=butter%20board,butter board,gt_reference_2014_2026_butter_board_US,False,False
+butter_board,FR,2025-12,38,False,US,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=butter%20board,butter board,gt_reference_2014_2026_butter_board_FR,False,False
+butter_board,JP,2025-12,38,False,US,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=butter%20board,butter board,gt_reference_2014_2026_butter_board_JP,False,False
+butter_board,KR,2025-12,38,False,US,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=butter%20board,butter board,gt_reference_2014_2026_butter_board_KR,False,False
+chamoy_pickle,US,2022-08,0,True,US,3,2,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=chamoy%20pickle,chamoy pickle,gt_reference_2014_2026_chamoy_pickle_US,False,False
+chamoy_pickle,AE,2022-10,2,False,US,3,2,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=chamoy%20pickle,chamoy pickle,gt_reference_2014_2026_chamoy_pickle_AE,False,False
+charcoal_ice_cream,US,2026-03,0,True,US,4,1,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=charcoal%20ice%20cream,charcoal ice cream,gt_reference_2014_2026_charcoal_ice_cream_US,False,False
+cloud_bread,AE,2020-08,0,True,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=cloud%20bread,cloud bread,gt_reference_2014_2026_cloud_bread_AE,False,True
+cloud_bread,FR,2020-09,1,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=cloud%20bread,cloud bread,gt_reference_2014_2026_cloud_bread_FR,False,False
+cloud_bread,US,2020-09,1,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=cloud%20bread,cloud bread,gt_reference_2014_2026_cloud_bread_US,False,False
+cloud_bread,KR,2023-07,35,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=cloud%20bread,cloud bread,gt_reference_2014_2026_cloud_bread_KR,False,False
+cloud_bread,JP,2025-12,64,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=cloud%20bread,cloud bread,gt_reference_2014_2026_cloud_bread_JP,False,False
+cold_brew_coffee,AE,2020-08,0,True,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=cold%20brew,cold brew,gt_reference_2014_2026_cold_brew_coffee_AE,False,True
+cold_brew_coffee,US,2020-08,0,True,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=cold%20brew,cold brew,gt_reference_2014_2026_cold_brew_coffee_US,False,True
+cold_brew_coffee,JP,2021-05,9,False,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=cold%20brew,cold brew,gt_reference_2014_2026_cold_brew_coffee_JP,False,False
+cold_brew_coffee,FR,2022-07,23,False,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=cold%20brew,cold brew,gt_reference_2014_2026_cold_brew_coffee_FR,False,False
+cold_brew_coffee,KR,2026-01,65,False,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=cold%20brew,cold brew,gt_reference_2014_2026_cold_brew_coffee_KR,False,False
+dalgona_coffee,AE,2020-04,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=dalgona%20coffee,dalgona coffee,gt_reference_2014_2026_dalgona_coffee_AE,False,True
+dalgona_coffee,FR,2020-04,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=dalgona%20coffee,dalgona coffee,gt_reference_2014_2026_dalgona_coffee_FR,False,True
+dalgona_coffee,JP,2020-04,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=dalgona%20coffee,dalgona coffee,gt_reference_2014_2026_dalgona_coffee_JP,False,True
+dalgona_coffee,KR,2020-04,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=dalgona%20coffee,dalgona coffee,gt_reference_2014_2026_dalgona_coffee_KR,False,True
+dalgona_coffee,US,2020-04,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=dalgona%20coffee,dalgona coffee,gt_reference_2014_2026_dalgona_coffee_US,False,True
+dubai_chocolate,AE,2024-06,0,True,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=dubai%20chocolate,dubai chocolate,gt_reference_2014_2026_dubai_chocolate_AE,False,False
+dubai_chocolate,KR,2024-07,1,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=dubai%20chocolate,dubai chocolate,gt_reference_2014_2026_dubai_chocolate_KR,False,False
+dubai_chocolate,JP,2024-08,2,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=dubai%20chocolate,dubai chocolate,gt_reference_2014_2026_dubai_chocolate_JP,False,False
+dubai_chocolate,US,2024-08,2,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=dubai%20chocolate,dubai chocolate,gt_reference_2014_2026_dubai_chocolate_US,False,False
+dubai_chocolate,FR,2024-10,4,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=dubai%20chocolate,dubai chocolate,gt_reference_2014_2026_dubai_chocolate_FR,False,False
+espresso_martini,AE,2020-04,0,True,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=espresso%20martini,espresso martini,gt_reference_2014_2026_espresso_martini_AE,False,True
+espresso_martini,FR,2021-09,17,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=espresso%20martini,espresso martini,gt_reference_2014_2026_espresso_martini_FR,False,False
+espresso_martini,US,2022-01,21,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=espresso%20martini,espresso martini,gt_reference_2014_2026_espresso_martini_US,False,False
+espresso_martini,JP,2023-04,36,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=espresso%20martini,espresso martini,gt_reference_2014_2026_espresso_martini_JP,False,False
+espresso_martini,KR,2023-05,37,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=espresso%20martini,espresso martini,gt_reference_2014_2026_espresso_martini_KR,False,False
+freakshake,US,2021-10,0,True,US,3,1,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=freakshake,freakshake,gt_reference_2014_2026_freakshake_US,False,False
+gochujang,AE,2020-03,0,True,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=gochujang,gochujang,gt_reference_2014_2026_gochujang_AE,False,True
+gochujang,JP,2020-04,1,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=gochujang,gochujang,gt_reference_2014_2026_gochujang_JP,False,True
+gochujang,US,2020-05,2,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=gochujang,gochujang,gt_reference_2014_2026_gochujang_US,False,True
+gochujang,FR,2021-03,12,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=gochujang,gochujang,gt_reference_2014_2026_gochujang_FR,False,False
+gochujang,KR,2022-09,30,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=gochujang,gochujang,gt_reference_2014_2026_gochujang_KR,False,False
+grimace_shake,AE,2023-07,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=grimace%20shake,grimace shake,gt_reference_2014_2026_grimace_shake_AE,False,False
+grimace_shake,FR,2023-07,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=grimace%20shake,grimace shake,gt_reference_2014_2026_grimace_shake_FR,False,False
+grimace_shake,JP,2023-07,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=grimace%20shake,grimace shake,gt_reference_2014_2026_grimace_shake_JP,False,False
+grimace_shake,KR,2023-07,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=grimace%20shake,grimace shake,gt_reference_2014_2026_grimace_shake_KR,False,False
+grimace_shake,US,2023-07,0,True,AE;FR;JP;KR;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=grimace%20shake,grimace shake,gt_reference_2014_2026_grimace_shake_US,False,False
+hot_honey,FR,2020-03,0,True,FR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=hot%20honey,hot honey,gt_reference_2014_2026_hot_honey_FR,False,True
+hot_honey,AE,2020-04,1,False,FR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=hot%20honey,hot honey,gt_reference_2014_2026_hot_honey_AE,False,True
+hot_honey,JP,2020-08,5,False,FR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=hot%20honey,hot honey,gt_reference_2014_2026_hot_honey_JP,False,True
+hot_honey,US,2022-02,23,False,FR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=hot%20honey,hot honey,gt_reference_2014_2026_hot_honey_US,False,False
+hot_honey,KR,2023-06,39,False,FR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=hot%20honey,hot honey,gt_reference_2014_2026_hot_honey_KR,False,False
+kombucha,KR,2021-07,0,True,KR,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=kombucha,kombucha,gt_reference_2014_2026_kombucha_KR,False,False
+kombucha,AE,2023-02,19,False,KR,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=kombucha,kombucha,gt_reference_2014_2026_kombucha_AE,False,False
+kombucha,FR,2025-06,47,False,KR,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=kombucha,kombucha,gt_reference_2014_2026_kombucha_FR,False,False
+kombucha,JP,2025-12,53,False,KR,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=kombucha,kombucha,gt_reference_2014_2026_kombucha_JP,False,False
+matcha,US,2020-05,0,True,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=matcha,matcha,gt_reference_2014_2026_matcha_US,False,True
+matcha,FR,2023-02,33,False,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=matcha,matcha,gt_reference_2014_2026_matcha_FR,False,False
+matcha,JP,2023-04,35,False,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=matcha,matcha,gt_reference_2014_2026_matcha_JP,False,False
+matcha,AE,2023-06,37,False,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=matcha,matcha,gt_reference_2014_2026_matcha_AE,False,False
+matcha,KR,2023-07,38,False,US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=matcha,matcha,gt_reference_2014_2026_matcha_KR,False,False
+mochi,US,2021-03,0,True,US,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=mochi,mochi,gt_reference_2014_2026_mochi_US,False,False
+mochi,FR,2021-04,1,False,US,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=mochi,mochi,gt_reference_2014_2026_mochi_FR,False,False
+mochi,JP,2022-12,21,False,US,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=mochi,mochi,gt_reference_2014_2026_mochi_JP,False,False
+mochi,KR,2025-12,57,False,US,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=mochi,mochi,gt_reference_2014_2026_mochi_KR,False,False
+natures_cereal,US,2021-04,0,True,US,2,1,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=nature's%20cereal,nature's cereal,gt_reference_2014_2026_natures_cereal_US,False,False
+oat_milk,AE,2020-03,0,True,AE;JP;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=oat%20milk,oat milk,gt_reference_2014_2026_oat_milk_AE,False,True
+oat_milk,JP,2020-03,0,True,AE;JP;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=oat%20milk,oat milk,gt_reference_2014_2026_oat_milk_JP,False,True
+oat_milk,US,2020-03,0,True,AE;JP;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=oat%20milk,oat milk,gt_reference_2014_2026_oat_milk_US,False,True
+oat_milk,FR,2025-12,69,False,AE;JP;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=oat%20milk,oat milk,gt_reference_2014_2026_oat_milk_FR,False,False
+oat_milk,KR,2025-12,69,False,AE;JP;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=oat%20milk,oat milk,gt_reference_2014_2026_oat_milk_KR,False,False
+pancake_cereal,US,2020-06,0,True,US,4,1,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=pancake%20cereal,pancake cereal,gt_reference_2014_2026_pancake_cereal_US,False,True
+pink_sauce,AE,2020-04,0,True,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=pink%20sauce,pink sauce,gt_reference_2014_2026_pink_sauce_AE,False,True
+pink_sauce,FR,2022-03,23,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=pink%20sauce,pink sauce,gt_reference_2014_2026_pink_sauce_FR,False,False
+pink_sauce,KR,2022-08,28,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=pink%20sauce,pink sauce,gt_reference_2014_2026_pink_sauce_KR,False,False
+pink_sauce,US,2022-08,28,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=pink%20sauce,pink sauce,gt_reference_2014_2026_pink_sauce_US,False,False
+pink_sauce,JP,2026-02,70,False,AE,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=pink%20sauce,pink sauce,gt_reference_2014_2026_pink_sauce_JP,False,False
+pistachio,JP,2020-03,0,True,JP,5,5,https://trends.google.com/trends/explore?date=2019-01-01%202026-10-31&geo=JP&q=%E3%83%94%E3%82%B9%E3%82%BF%E3%83%81%E3%82%AA,ピスタチオ,gt_pistachio_JP_20261112_001,True,True
+pistachio,AE,2020-04,1,False,JP,5,5,https://trends.google.com/trends/explore?date=2019-01-01%202026-10-31&geo=AE&q=%D9%81%D8%B3%D8%AA%D9%82%20%D8%AD%D9%84%D8%A8%D9%8A,فستق حلبي,gt_pistachio_AE_20261112_001,True,True
+pistachio,US,2021-01,10,False,JP,5,5,https://trends.google.com/trends/explore?date=2019-01-01%202026-10-31&geo=US&q=pistachio,pistachio,gt_pistachio_US_20261112_001,True,False
+pistachio,FR,2024-04,49,False,JP,5,5,https://trends.google.com/trends/explore?date=2019-01-01%202026-10-31&geo=FR&q=pistache,pistache,gt_pistachio_FR_20261112_001,True,False
+pistachio,KR,2024-08,53,False,JP,5,5,https://trends.google.com/trends/explore?date=2019-01-01%202026-10-31&geo=KR&q=%ED%94%BC%EC%8A%A4%ED%83%80%EC%B9%98%EC%98%A4,피스타치오,gt_pistachio_KR_20261112_001,True,False
+poke_bowl,FR,2020-06,0,True,FR,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=poke%20bowl,poke bowl,gt_reference_2014_2026_poke_bowl_FR,False,True
+poke_bowl,KR,2020-09,3,False,FR,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=poke%20bowl,poke bowl,gt_reference_2014_2026_poke_bowl_KR,False,False
+poke_bowl,JP,2024-05,47,False,FR,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=poke%20bowl,poke bowl,gt_reference_2014_2026_poke_bowl_JP,False,False
+poke_bowl,AE,2024-07,49,False,FR,5,4,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=poke%20bowl,poke bowl,gt_reference_2014_2026_poke_bowl_AE,False,False
+ube,AE,2020-05,0,True,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=ube,ube,gt_reference_2014_2026_ube_AE,False,True
+ube,US,2020-05,0,True,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=ube,ube,gt_reference_2014_2026_ube_US,False,True
+ube,JP,2022-05,24,False,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=ube,ube,gt_reference_2014_2026_ube_JP,False,False
+ube,FR,2025-04,59,False,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=ube,ube,gt_reference_2014_2026_ube_FR,False,False
+ube,KR,2025-12,67,False,AE;US,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=ube,ube,gt_reference_2014_2026_ube_KR,False,False
+whipped_lemonade,US,2020-06,0,True,US,1,1,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=whipped%20lemonade,whipped lemonade,gt_reference_2014_2026_whipped_lemonade_US,False,True
+yuzu,KR,2020-03,0,True,KR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=KR&q=yuzu,yuzu,gt_reference_2014_2026_yuzu_KR,False,True
+yuzu,FR,2021-12,21,False,KR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=FR&q=yuzu,yuzu,gt_reference_2014_2026_yuzu_FR,False,False
+yuzu,US,2022-01,22,False,KR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=yuzu,yuzu,gt_reference_2014_2026_yuzu_US,False,False
+yuzu,AE,2023-06,39,False,KR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=yuzu,yuzu,gt_reference_2014_2026_yuzu_AE,False,False
+yuzu,JP,2023-06,39,False,KR,5,5,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=JP&q=yuzu,yuzu,gt_reference_2014_2026_yuzu_JP,False,False

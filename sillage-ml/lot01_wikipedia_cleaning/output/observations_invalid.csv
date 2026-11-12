@@ -1,0 +1,1 @@
+﻿observation_id,topic_id,topic_label,country_iso2,wiki_project,period_start,period_end,frequency,source,metric,value,unit,query_original,normalization_scope_id,source_url,page_url,raw_file,collected_at_utc,is_synthetic,label_reference,license,run_id,quality_flags,rejection_reasons

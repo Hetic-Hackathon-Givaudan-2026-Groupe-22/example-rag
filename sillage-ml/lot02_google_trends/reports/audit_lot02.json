@@ -1,0 +1,73 @@
+{
+  "generated_at_utc": "2026-11-12T10:16:28.157955+00:00",
+  "sources": {
+    "google_trends_p0": 2068,
+    "google_trends_reference": 15604,
+    "wikipedia": 11776,
+    "prix": 279
+  },
+  "total_observations": 29727,
+  "gt_p0": {
+    "topics": 4,
+    "countries": [
+      "AE",
+      "FR",
+      "JP",
+      "KR",
+      "US"
+    ],
+    "n_country_series": 19,
+    "n_country_rows": 1786,
+    "n_world_comparison_rows": 282,
+    "n_below_one_flags": 129
+  },
+  "gt_reference": {
+    "n_topics": 30,
+    "n_series": 166,
+    "n_observations": 15604,
+    "label_distribution": {
+      "tendance": 15,
+      "buzz": 15
+    },
+    "topics_out_of_food_scope": [
+      "oud"
+    ],
+    "n_below_one_flags": 274,
+    "n_overlapping_series_p0": 14
+  },
+  "wiki": {
+    "observations": 11776,
+    "countries_inferred": 0,
+    "n_wiki_projects": 10
+  },
+  "prices": {
+    "n_series": 3,
+    "n_rows": 279,
+    "last_date": "2026-09",
+    "types": [
+      "cacao",
+      "cafe_arabica",
+      "pistache"
+    ]
+  },
+  "raw_input_sha256": {
+    "gt_p0": "36ea7b76860d6d9aa189f2d9aa67959724ee24813e09dbe293aced136636b6cf",
+    "gt_reference": "4b344cd09a62beb7847641b8ff2967501819f195c200c59447977d6021103412",
+    "wiki": "ff2d9feb8f9400b18aab363d390f4cfbfad1e45125b67990356122ce80961bf2",
+    "prix": "faf457dda42dc89ad023f47fd567580466832de4c44c11b005b8055082a585a3"
+  },
+  "cleaned_input_sha256": {
+    "google_trends_p0_M1_pays": "5ec04944c7e53062409718971adfc13f6ec39c2af52faafdae8f89313e1cbec6",
+    "google_trends_p0_WORLD": "e1215902a6504f60abfd87caf65c655818bd3ae11cd521359de0171e71b36857",
+    "reference_30_sujets": "c5f6fca537f9f17086ffa31a945e29216a58e6aaff6179ec9f3b7b0ae9ea63d6"
+  },
+  "limitations": [
+    "Les labels M2 sont provisoires et un label concerne un sujet entier, pas une zone-date.",
+    "Les exports de 2014-2026 et 2019-2026 ont des normalisations non interchangeables.",
+    "Les editions linguistiques Wikipedia ne sont pas des pays.",
+    "P0 et reference se recoupent: ne pas les compter comme deux jeux independants.",
+    "Les fichiers CSV sources d'export bruts cites dans raw_file ne sont pas fournis dans le lot transmis.",
+    "Le flag inferieur_a_1 signale des valeurs faibles ou censurees; ne pas les traiter comme des mesures exactes.",
+    "Indices Google Trends ne mesurent pas le volume absolu de recherches ni les ventes alimentaires."
+  ]
+}

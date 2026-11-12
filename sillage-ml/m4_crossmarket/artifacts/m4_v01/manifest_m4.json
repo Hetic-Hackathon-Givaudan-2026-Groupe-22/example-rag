@@ -1,0 +1,23 @@
+{
+  "version": "m4_v0.1",
+  "input_path": "data/processed/m3_30_foods_geo_2019_2026.csv",
+  "input_sha256": "c4e387f9750d4eab3e3ac40d1e7c342f70388ee476b677daa531dcbc4b979f63",
+  "generated_at_utc": "2026-11-12T14:50:22.096398+00:00",
+  "python_version": "3.13.5",
+  "params": {
+    "baseline_months": 12,
+    "recent_months": 3,
+    "min_confirming_months": 2,
+    "min_increase_points": 8.0,
+    "relative_threshold": 0.35,
+    "mad_multiplier": 2.0
+  },
+  "outputs_sha256": {
+    "market_timelines.csv": "a5eca4d608557ca54ad6299a5bfd92d9df4975191887b01da932747533d62df9",
+    "cross_market_lags.csv": "6a1d9e6c803af475401229c9df662528715ab34a579137aaf0412fd011c05a6b",
+    "ingredient_summary.csv": "8a79dfed0b441a573872b57edacbc216c19e47ef90d25246c0b0d87ca4f92538",
+    "threshold_sensitivity.csv": "80dc068b267cc135157310fd933ab4eb1e2a36f5bb81d0df7411423061ace54c",
+    "review_needed.csv": "e057ebf3b810ec9bb83a17df09ac7f7a6fd89bf05f12c8f95e306d887b489d43",
+    "metrics_m4.json": "a5078be331c63e6c211fd666fc2cf6a9f36250088760a96feb853bd3f7ebd5fa"
+  }
+}

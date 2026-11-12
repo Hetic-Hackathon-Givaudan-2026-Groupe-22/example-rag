@@ -1,0 +1,48 @@
+{
+  "data_source": "Wikimedia Pageviews (article views, editions linguistiques)",
+  "raw_observations": 15212,
+  "validated_observations": 15212,
+  "invalid_observations": 0,
+  "duplicates_removed": 0,
+  "n_topics": 21,
+  "n_wikipedia_editions": 10,
+  "n_series": 159,
+  "n_zero_values_preserved": 81,
+  "date_min": "2015-07-01",
+  "date_max": "2026-10-01",
+  "status_breakdown": {
+    "usable": {
+      "n_series": 115,
+      "n_obs": 12690
+    },
+    "insuffisant": {
+      "n_series": 21,
+      "n_obs": 445
+    },
+    "a_verifier": {
+      "n_series": 14,
+      "n_obs": 1065
+    },
+    "exclu_perimetre": {
+      "n_series": 9,
+      "n_obs": 1012
+    }
+  },
+  "n_m1_eligible": 12690,
+  "n_quarantine": 2522,
+  "n_gt_dictionary_topics": 4,
+  "n_wiki_topics_without_gt_dictionary_entry": 17,
+  "country_iso2_null_all_rows": true,
+  "is_synthetic_count": 0,
+  "reported_quality_statuses_reproduced": true,
+  "original_preparatory_labels_are_not_validated_ground_truth": true,
+  "cleaned_parquet_written": false,
+  "warnings": [
+    "Les éditions linguistiques Wikipédia ne sont PAS des pays. Cross-market géographique non pris en charge.",
+    "Les vues de pages sont un proxy d'intérêt documentaire et NON des volumes de recherche ou des ventes alimentaires.",
+    "Ne PAS entraîner une classification supervisée avec label_reference sans validation humaine indépendante.",
+    "Aucune interpolation des mois absents, aucun remplacement des zéros, aucun clipping des pics.",
+    "La source brute echantillon_pageviews.csv n'était pas dans les fichiers reçus : reproduction possible depuis le Parquet uniquement.",
+    "Le pipeline M1 existant exige un country ISO2 : NE PAS lui passer les langues comme pays. Adapter M1 à segment_type=wiki_project."
+  ]
+}

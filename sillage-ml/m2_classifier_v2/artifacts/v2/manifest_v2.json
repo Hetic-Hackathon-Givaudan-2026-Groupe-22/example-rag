@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0-experimental",
+  "created_at_utc": "2026-11-12T11:03:19.232877+00:00",
+  "data_file": "data/raw/reference_30_cas_google_trends_2019_2026.csv",
+  "data_sha256": "4b344cd09a62beb7847641b8ff2967501819f195c200c59447977d6021103412",
+  "python": "3.13.5",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "features": [
+    "med_peak_concentration",
+    "med_recent_to_peak",
+    "med_active_fraction",
+    "med_longest_active_run",
+    "med_end_vs_start",
+    "med_stability",
+    "med_recent_vs_history"
+  ],
+  "policy": {
+    "min_months": 24,
+    "min_zones": 2,
+    "activity_threshold": 10.0
+  },
+  "model_params": {
+    "memory": null,
+    "steps": [
+      [
+        "scaler",
+        "StandardScaler()"
+      ],
+      [
+        "model",
+        "LogisticRegression(C=0.3, class_weight='balanced', max_iter=2000,\n                   random_state=42)"
+      ]
+    ],
+    "transform_input": null,
+    "verbose": false,
+    "scaler": "StandardScaler()",
+    "model": "LogisticRegression(C=0.3, class_weight='balanced', max_iter=2000,\n                   random_state=42)",
+    "scaler__copy": true,
+    "scaler__with_mean": true,
+    "scaler__with_std": true,
+    "model__C": 0.3,
+    "model__class_weight": "balanced",
+    "model__dual": false,
+    "model__fit_intercept": true,
+    "model__intercept_scaling": 1,
+    "model__l1_ratio": 0.0,
+    "model__max_iter": 2000,
+    "model__n_jobs": null,
+    "model__penalty": "deprecated",
+    "model__random_state": 42,
+    "model__solver": "lbfgs",
+    "model__tol": 0.0001,
+    "model__verbose": 0,
+    "model__warm_start": false
+  },
+  "metrics_file": "metrics_v2.json",
+  "predictions_file": "predictions_29_oof.csv",
+  "repro_command": "python -m sillage_v2.train --input data/raw/reference_30_cas_google_trends_2019_2026.csv --out artifacts/v2"
+}

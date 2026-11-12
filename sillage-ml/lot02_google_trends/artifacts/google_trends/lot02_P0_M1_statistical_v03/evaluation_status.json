@@ -1,0 +1,8 @@
+{
+  "is_independent_performance_estimate": false,
+  "n_reference_topics": 30,
+  "M1_event_detection_labels_available": false,
+  "M2_topic_labels_available": true,
+  "metrics": {},
+  "reason": "Les 30 labels portent sur buzz/durable par sujet, pas sur des evenements d emergence (pays, date). Ne pas calculer precision/rappel M1 avec ces labels. Ne pas entrainer et tester un classifieur sur les memes sujets."
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "20261112_wikipedia_lot01_m1_v03",
+  "model_version": "M1-wikipedia-statistical-baseline-0.3.0",
+  "model_type": "detector_untrained_heuristic",
+  "method": "robust_z_past_median_plus_lag_growth",
+  "generated_at_utc": "2026-11-12T09:56:30.660442+00:00",
+  "input_source": "data/raw/wikipedia_lot01_eligible.csv",
+  "input_sha256": "9ffea9cc1b8b751bc115e89b8ec4fea937a1ea5a525b484a197cbc16c2e3ae91",
+  "parameters": {
+    "frequency": "monthly",
+    "history_window": 12,
+    "growth_lag": 4,
+    "z_threshold": 3.0,
+    "growth_threshold": 0.25,
+    "cooldown": 4
+  },
+  "data_scope": "article_pageviews_by_wikipedia_edition",
+  "n_observations": 12690,
+  "n_series": 115,
+  "n_alerts": 450,
+  "contains_real": true,
+  "contains_synthetic": false,
+  "model_validation": "NON EVALUÉ SUR 30 CAS INDÉPENDANTS",
+  "country_warning": "wiki_project != country; aucune inférence de pays / pas de résultat cross-market",
+  "statistical_warning": "Alertes heuristiques non calibrées; pas de classification buzz/durable ni de prévision.",
+  "output_sha256": {
+    "input_snapshot.csv": "9ffea9cc1b8b751bc115e89b8ec4fea937a1ea5a525b484a197cbc16c2e3ae91",
+    "cleaned.csv": "f2794769d8318268c0a714fab5c11343f97bafdb0b94de981c0a5b8d960a5eeb",
+    "features.csv": "fb24cb7fb01b82b74955bb3f1d0577b69be27028d16e907e72f16d7947463a0a",
+    "signals.csv": "c31b574eb5597294b67d316a8abf56f2a6a4eb6cc4ec08dc70ce4b136e669542",
+    "signals.json": "c76d3a0ff9dba4192e4d88692fe12d70c3b8b9c9a04c844743fe114f9529f587",
+    "series.json": "d54b56757d0f51e7cd693e9c1ed51a253cda44c805ad9f61f2a0a327a4ff7673",
+    "quality.json": "d80dc17a57939de993a03a31fbb79f606b26391a0b64d82d456fe9eb39bef716",
+    "runs_quality.csv": "001676c0fb4a3d642519fee304db410d4180c7714972fb60a00e4b535d24cbf8"
+  }
+}

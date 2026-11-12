@@ -1,0 +1,22 @@
+{
+  "model_version": "M1-statistical-baseline-0.3.0",
+  "method": "robust_z_past_median_plus_lag_growth",
+  "status": "baseline_non_calibrated_not_M2",
+  "generated_at_utc": "2026-11-12T10:16:38.164591+00:00",
+  "input_file": "google_trends_p0_M1_pays.csv",
+  "input_sha256": "5ec04944c7e53062409718971adfc13f6ec39c2af52faafdae8f89313e1cbec6",
+  "parameters": {
+    "frequency": "monthly",
+    "history_window": 12,
+    "growth_lag": 4,
+    "z_threshold": 3.0,
+    "growth_threshold": 0.25,
+    "cooldown": 4
+  },
+  "n_input_cleaned": 1786,
+  "n_series": 19,
+  "n_detected_events": 56,
+  "contains_synthetic": false,
+  "contains_real": true,
+  "scientific_warning": "Ce détecteur n'est pas un classifieur buzz/durable et son score n'est pas une probabilité. Validation indépendante nécessaire."
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "20261112T094634Z_3596fc9671",
+  "pipeline": "sillage_wikipedia_cleaning",
+  "script_version": "1.1.0",
+  "executed_at_utc": "2026-11-12T09:46:34+00:00",
+  "source": "raw/observations_wikipedia_extracted.csv",
+  "source_sha256": "3596fc9671e2bc9c59c9d851db9c0264631af855ec7848e43106f30a49393741",
+  "source_parquet_sha256_in_bundle": "f834606023a7efe25ee7996b7597ea8db93008c5d8bf4b679b4b30b06454e17b",
+  "cutoff_month": "2026-10",
+  "min_completeness": 0.85,
+  "min_consecutive_months": 24,
+  "reference_files": {
+    "quality": "85c2ba6cadaae6aa7df25295f02ff88a04443d5d310adfc5c3dd06d61489bc01",
+    "search_manifest": "a53c163d9645a2f04b129bc65710cef95bfaa4bd198aceb46a108186c8ccaa23",
+    "dictionary": "6f281c277190453af8dbaa18dcde32f99fbac9894aa282b4c14c96d8fa47fc25"
+  },
+  "outputs_sha256": {
+    "observations_clean_all.csv": "9c18f302d4165d86d0e7172bf6ea5cd59fbfdd0029492a70c66db3055d84f16c",
+    "observations_m1_eligible.csv": "706e77da8523973a6768b6e80b336e292f00ab6d7d9ba52ecdb607d9f44fd9f0",
+    "observations_quarantine.csv": "e68225cf8bc9500cd386e40305ba52c37544d0cb43d6ee7fad29311685004331",
+    "observations_invalid.csv": "d770345d94c9dc2b42cfc9d2ccbc595d095d0a78f8a77532986e14410c21171d",
+    "m1_wikipedia_contract.csv": "9ffea9cc1b8b751bc115e89b8ec4fea937a1ea5a525b484a197cbc16c2e3ae91",
+    "series_quality_recomputed.csv": "15d0f51bef118babcf3466a18f5c82354bc414681c03981bc0eff61d16fc2225"
+  },
+  "cleaning_policy": "retain all valid values; quarantine invalid/out-of-scope/mapping doubtful/too-short series; preserve source original"
+}

@@ -1,0 +1,4 @@
+2026-11-12 — Sillage M3 v0.3 rolling
+python -m pytest -q
+28 passed in 12.34s (environnement de préparation)
+Note : vérifier à nouveau dans le venv Windows.

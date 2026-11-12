@@ -1,0 +1,38 @@
+{
+  "input": "data/processed/m3_30_foods_geo_2019_2026.csv",
+  "input_sha256": "c4e387f9750d4eab3e3ac40d1e7c342f70388ee476b677daa531dcbc4b979f63",
+  "generated_at_utc": "2026-11-12T13:45:04.158756+00:00",
+  "code_version": "m3_v0.2",
+  "python": "3.13.5",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.8.0",
+  "cutoff_dates": [
+    "2024-01",
+    "2024-04",
+    "2024-07",
+    "2024-10",
+    "2025-01",
+    "2025-04",
+    "2025-07",
+    "2025-10",
+    "2026-01",
+    "2026-04",
+    "2026-07"
+  ],
+  "selection_rule": "minimum selection-fold MAE; final_holdout NOT in selection",
+  "months_missing_filled_with_zero": false,
+  "world_rows_excluded": true,
+  "input_has_label_feature": false,
+  "outputs_sha256": {
+    "backtest_predictions.csv": "928edd3b7b5b012af220281b8884e42bd5f73062fefb44d593cf9121c8812cdb",
+    "metrics_by_split.csv": "c4a6dfa451741e96d15aba37ece92776ea397b7f6f9d8f2958659cd1ce616bf2",
+    "forecast_selected.csv": "5ef44f4250139ca75c55acd460fab81453fff575b8d8fdbddcf59f8976dc5ec6",
+    "forecast_all_candidates.csv": "de5fb041b7509962b8bb37f53e2a9fe4f10f3406ef9a174abc609ef89f41490e",
+    "metrics_by_ingredient.csv": "ee4580d977735b288df5407320e0cd4fc87d911194754cc23f472b1e97094e1e",
+    "metrics_by_horizon.csv": "7009606268be4e4c598517c7731e36fc9945aaa5c8eb0df55a5905923940e441",
+    "metrics_by_cohort.csv": "9e5b093a496bc2505fa7f0a857ffa382b9dee7446d599af9f1cf9f9bd3622d0d",
+    "metrics_topic_macro.csv": "00fbd2a06b188fb9e94c006d542ddae024b304258ae9e67832df04ea3626c6a0",
+    "metrics_m3.json": "a6d1f07aa7e6ff706b18aede6c5eee3c60470c588766fc39d1b842b852c28776",
+    "ablation_without_pistachio.json": "b4d7dd2abe3d3e979c2716b3088fa9386f5f55550a98bea014dbd675760cadd9"
+  }
+}

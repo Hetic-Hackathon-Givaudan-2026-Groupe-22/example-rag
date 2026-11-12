@@ -1,0 +1,39 @@
+{
+  "status": "experimental",
+  "version": "m3_v0.3_rolling",
+  "n_ingredients": 30,
+  "n_country_series": 136,
+  "n_rolling_state_rows": 11288,
+  "n_current_forecast_rows": 408,
+  "forecast_horizon_months": 3,
+  "forecast_model": "last_value_UNCHANGED",
+  "n_selection_origins": 10,
+  "last_month": "2026-10",
+  "latest_phase_counts": {
+    "faible_attention": 35,
+    "hausse_a_confirmer": 16,
+    "hausse_persistante": 0,
+    "stable": 6,
+    "stable_niveau_eleve": 33,
+    "repli_a_confirmer": 28,
+    "repli_persistant": 18
+  },
+  "last_value_mae_by_split": {
+    "final_holdout": 10.9743,
+    "selection": 7.6517
+  },
+  "state_rule": {
+    "window_months": 3,
+    "nonoverlapping_comparison_blocks": 3,
+    "update_cadence": "monthly",
+    "minimum_history_months": 12,
+    "delta_points_threshold": 5.0,
+    "relative_change_threshold": 0.15,
+    "low_attention_threshold": 5.0,
+    "stable_high_threshold": 15.0,
+    "thresholds_are_exploratory_not_calibrated": true
+  },
+  "classification_warning": "Les phases décrivent une dynamique observée. Ce ne sont PAS des prédictions buzz vs tendance durable (M2). Le Random Forest M2 a été entraîné sur les courbes complètes : l’utiliser sur des préfixes sans réentraînement et validation serait trompeur.",
+  "normalization_warning": "Échelles Google Trends calculées a posteriori jusqu’en 2026 ; backtest strictement chronologique dans le code mais fuite de normalisation possible.",
+  "improvement_warning": "Les prévisions Last Value restent numériquement IDENTIQUES à v0.2. Le suivi temporel apporte une interprétation et un diagnostic, pas un gain démontré en MAE."
+}

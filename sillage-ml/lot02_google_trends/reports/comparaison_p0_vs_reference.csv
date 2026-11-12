@@ -1,0 +1,15 @@
+﻿topic_id,country,n_overlapping_months,identical_values_count,mean_abs_difference_index,p0_query,reference_query,same_query_literal,warning
+dalgona_coffee,FR,94,54,3.761,café dalgona,dalgona coffee,false,ne_pas_concatenier_normalisations_differentes
+dalgona_coffee,JP,94,15,2.271,ダルゴナコーヒー,dalgona coffee,false,ne_pas_concatenier_normalisations_differentes
+dalgona_coffee,KR,94,28,2.271,달고나 커피,dalgona coffee,false,ne_pas_concatenier_normalisations_differentes
+dalgona_coffee,US,94,94,0.0,dalgona coffee,dalgona coffee,true,ne_pas_concatenier_normalisations_differentes
+dubai_chocolate,AE,94,1,21.596,شوكولاتة دبي,dubai chocolate,false,ne_pas_concatenier_normalisations_differentes
+dubai_chocolate,FR,94,59,3.723,chocolat dubaï,dubai chocolate,false,ne_pas_concatenier_normalisations_differentes
+dubai_chocolate,JP,94,54,7.069,ドバイチョコ,dubai chocolate,false,ne_pas_concatenier_normalisations_differentes
+dubai_chocolate,KR,94,63,6.755,두바이 초콜릿,dubai chocolate,false,ne_pas_concatenier_normalisations_differentes
+dubai_chocolate,US,94,94,0.0,dubai chocolate,dubai chocolate,true,ne_pas_concatenier_normalisations_differentes
+matcha,AE,94,4,11.681,ماتشا,matcha,false,ne_pas_concatenier_normalisations_differentes
+matcha,FR,94,83,0.117,matcha,matcha,true,ne_pas_concatenier_normalisations_differentes
+matcha,JP,94,2,34.947,抹茶,matcha,false,ne_pas_concatenier_normalisations_differentes
+matcha,KR,94,5,8.989,말차,matcha,false,ne_pas_concatenier_normalisations_differentes
+matcha,US,94,94,0.0,matcha,matcha,true,ne_pas_concatenier_normalisations_differentes

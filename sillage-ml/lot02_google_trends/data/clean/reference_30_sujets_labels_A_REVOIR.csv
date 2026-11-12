@@ -1,0 +1,31 @@
+﻿topic_id,topic_label,reference_label,zones,n_zones,n_observations,first_month,last_month,review_required,in_food_scope,status,source_url_example
+acai_bowl,Açaí bowl,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=acai%20bowl
+baked_feta_pasta,Baked feta pasta,buzz,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=baked%20feta%20pasta
+birria,Birria,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=birria
+butter_board,Butter board,buzz,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=butter%20board
+chamoy_pickle,Chamoy pickle,buzz,AE;FR;US;WORLD,4,376,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=chamoy%20pickle
+charcoal_ice_cream,Charcoal ice cream,buzz,AE;JP;KR;US;WORLD,5,470,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=charcoal%20ice%20cream
+cloud_bread,Cloud bread,buzz,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=cloud%20bread
+cold_brew_coffee,Cold brew,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=cold%20brew
+dalgona_coffee,Dalgona coffee,buzz,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=dalgona%20coffee
+dubai_chocolate,Dubai chocolate,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=dubai%20chocolate
+espresso_martini,Espresso martini,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=espresso%20martini
+freakshake,Freakshake,buzz,AE;FR;US;WORLD,4,376,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=freakshake
+gochujang,Gochujang,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=gochujang
+grimace_shake,Grimace Shake,buzz,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=grimace%20shake
+hot_honey,Hot honey,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=hot%20honey
+kombucha,Kombucha,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=kombucha
+matcha,Matcha,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=matcha
+mochi,Mochi,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=mochi
+natures_cereal,Nature's cereal,buzz,AE;US;WORLD,3,282,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=nature's%20cereal
+oat_milk,Lait d'avoine,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=oat%20milk
+oud,Oud (parfum),tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,false,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=oud
+pancake_cereal,Pancake cereal,buzz,AE;FR;JP;US;WORLD,5,470,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=pancake%20cereal
+pink_sauce,Pink Sauce,buzz,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=pink%20sauce
+poke_bowl,Poke bowl,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=poke%20bowl
+rainbow_bagel,Rainbow bagel,buzz,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=rainbow%20bagel
+raindrop_cake,Raindrop cake,buzz,AE;FR;JP;US;WORLD,5,470,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=raindrop%20cake
+ube,Ube,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=ube
+unicorn_frappuccino,Unicorn Frappuccino,buzz,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=unicorn%20frappuccino
+whipped_lemonade,Whipped lemonade,buzz,US;WORLD,2,188,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=US&q=whipped%20lemonade
+yuzu,Yuzu,tendance,AE;FR;JP;KR;US;WORLD,6,564,2019-01,2026-10,true,true,labels_provisoires_non_valides,https://trends.google.com/trends/explore?date=2014-01-01%202026-10-31&geo=AE&q=yuzu

@@ -1,0 +1,16 @@
+{
+  "n_raw": 1786,
+  "n_clean": 1786,
+  "n_invalid_rows_dropped": 0,
+  "n_exact_duplicates_removed": 0,
+  "n_bad_dates": 0,
+  "n_bad_values": 0,
+  "n_bad_origin": 0,
+  "n_bad_country_format": 0,
+  "n_missing_series_identity": 0,
+  "n_real_rows_missing_source_url": 0,
+  "n_series": 19,
+  "n_real": 1786,
+  "n_synthetic": 0,
+  "warning": "Pays vérifié au format alpha-2, pas au registre ISO complet; contrôler les alias et les scopes Google Trends."
+}

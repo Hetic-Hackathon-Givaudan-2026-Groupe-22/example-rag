@@ -1,0 +1,2 @@
+15 passed in 1.60s
+Exécution locale avec le jeu M3 30 aliments, 136 séries, 12 784 valeurs réelles.

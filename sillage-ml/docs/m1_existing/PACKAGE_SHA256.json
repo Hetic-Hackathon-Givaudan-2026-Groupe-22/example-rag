@@ -1,0 +1,340 @@
+{
+  "generated": "2026-11-12",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "sha256": "790efcfbfc49870fab3682aacc23c3947767ed30417a53acf7400e04659e49c1",
+      "bytes": 158
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "bd538cdd81410c0f486ca56ec069c11005de15f32fb8bb3bd157e7bfa44d8498",
+      "bytes": 466
+    },
+    {
+      "file": "CHANGELOG.md",
+      "sha256": "db6f0fd6cbab685cc8c1c860915df91135415bc6ded6b1e451c2045befa08637",
+      "bytes": 930
+    },
+    {
+      "file": "README.md",
+      "sha256": "62a8e2ad68b05883865f8679dcfae42cac7e1c421e1c47a0dc62c93094a22047",
+      "bytes": 10553
+    },
+    {
+      "file": "VERSION",
+      "sha256": "7d9588e2b5e9a49aeae19bed536c69faccb5fcfc382fb3244e26888231a36009",
+      "bytes": 18
+    },
+    {
+      "file": "check_release.py",
+      "sha256": "4b0b97e643ed155bd83974896e533331fa1352d5119704ddacfba5ad30002769",
+      "bytes": 2200
+    },
+    {
+      "file": "docs/DATA_CATALOG.md",
+      "sha256": "85c92ad8d2c7a1e5be90dbdca5b23e45e771b53d86816f3c37edc3df929398b1",
+      "bytes": 3864
+    },
+    {
+      "file": "docs/GUIDE_GITHUB.md",
+      "sha256": "32c873c5efc2c638a101c2ee946a0c597177bf02fdc9af2a6fa576506c94ba36",
+      "bytes": 3417
+    },
+    {
+      "file": "docs/MODEL_CARD_M1.md",
+      "sha256": "0762d12fe70d58f25bc18d1cbe069375884a5343e5c282bd3420545207ef4a3c",
+      "bytes": 3470
+    },
+    {
+      "file": "docs/VALIDATION_30_CAS.md",
+      "sha256": "b582ffd9d4622022256b8d6968316d916f5d8bdee2534adcd6a067f6c5fdf1e6",
+      "bytes": 2911
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/README.md",
+      "sha256": "b2d13d2bb5ed00d89a971237377465898cf3e3bf212a95bc36f6385f4333478a",
+      "bytes": 7115
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/code/clean_wikipedia.py",
+      "sha256": "3a8c7c3f52284136d0610a4edfff927c01f0cc976c91f01acd285e8fbdd44c8d",
+      "bytes": 15259
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/NOTE_QUALITE_ET_LIMITES.md",
+      "sha256": "ced0f65b9380cffa7f9e0ce07858fa80a67dc17d41110cb57a5f7781bcccb501",
+      "bytes": 2772
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/cleaning_runs.csv",
+      "sha256": "057361ee9006e974e683a5a6e9546524b2de405be55b304453153bd65f3158c1",
+      "bytes": 226
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/m1_wikipedia_contract.csv",
+      "sha256": "9ffea9cc1b8b751bc115e89b8ec4fea937a1ea5a525b484a197cbc16c2e3ae91",
+      "bytes": 4724132
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/observations_clean_all.csv",
+      "sha256": "9c18f302d4165d86d0e7172bf6ea5cd59fbfdd0029492a70c66db3055d84f16c",
+      "bytes": 7735137
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/observations_invalid.csv",
+      "sha256": "d770345d94c9dc2b42cfc9d2ccbc595d095d0a78f8a77532986e14410c21171d",
+      "bytes": 284
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/observations_m1_eligible.csv",
+      "sha256": "706e77da8523973a6768b6e80b336e292f00ab6d7d9ba52ecdb607d9f44fd9f0",
+      "bytes": 6362637
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/observations_quarantine.csv",
+      "sha256": "e68225cf8bc9500cd386e40305ba52c37544d0cb43d6ee7fad29311685004331",
+      "bytes": 1372781
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/processing_manifest.json",
+      "sha256": "976939032592a4557430fc436ece0972811c959bb95f75c604be2a3d3278ecc4",
+      "bytes": 1574
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/quality_summary.json",
+      "sha256": "300ba0cf83fd44090c770f9d7e1b3a5d643b898f7a8e074a3a97bab1e2eaf8a3",
+      "bytes": 1771
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/output/series_quality_recomputed.csv",
+      "sha256": "15d0f51bef118babcf3466a18f5c82354bc414681c03981bc0eff61d16fc2225",
+      "bytes": 17479
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/raw/dictionnaire_requetes.csv",
+      "sha256": "6f281c277190453af8dbaa18dcde32f99fbac9894aa282b4c14c96d8fa47fc25",
+      "bytes": 22664
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/raw/quality_report_wikipedia.csv",
+      "sha256": "85c2ba6cadaae6aa7df25295f02ff88a04443d5d310adfc5c3dd06d61489bc01",
+      "bytes": 17426
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/raw/search_manifest_wikipedia.csv",
+      "sha256": "a53c163d9645a2f04b129bc65710cef95bfaa4bd198aceb46a108186c8ccaa23",
+      "bytes": 58399
+    },
+    {
+      "file": "lot01_wikipedia_cleaning/tests/test_cleaning.py",
+      "sha256": "210684eaa33787d28f04b3a7ae816f1e5974667553cfdcb8e5bb508a23600659",
+      "bytes": 2238
+    },
+    {
+      "file": "lot02_google_trends/README.md",
+      "sha256": "a9dd0506826e00a0b93590e36cc263979b4206a59a1a8ec210ad219ed331e2c9",
+      "bytes": 8439
+    },
+    {
+      "file": "lot02_google_trends/artifacts/google_trends/lot02_P0_M1_statistical_v03/cleaned.csv",
+      "sha256": "4496e0602afc9ff892fec4b86e823285b8fd595eb32e9a922c502d6ce31b712d",
+      "bytes": 389893
+    },
+    {
+      "file": "lot02_google_trends/artifacts/google_trends/lot02_P0_M1_statistical_v03/evaluation_status.json",
+      "sha256": "3865e5ee8e053de207c25d17e1d37b5ac455666c111485c15531579d013b73c4",
+      "bytes": 411
+    },
+    {
+      "file": "lot02_google_trends/artifacts/google_trends/lot02_P0_M1_statistical_v03/features.csv",
+      "sha256": "605e79a5cfe856420a1542016a74bb2ae373de06518b15509b15837733318838",
+      "bytes": 210991
+    },
+    {
+      "file": "lot02_google_trends/artifacts/google_trends/lot02_P0_M1_statistical_v03/manifest.json",
+      "sha256": "4ea60b37efe5839b6f1bd6e818fb3171492425f98a0a1539e5a83b61c528570c",
+      "bytes": 800
+    },
+    {
+      "file": "lot02_google_trends/artifacts/google_trends/lot02_P0_M1_statistical_v03/quality.json",
+      "sha256": "6d71776808db90b9d575d20c1bd1ce27c03efce1dcbdb32936b420998760acb8",
+      "bytes": 453
+    },
+    {
+      "file": "lot02_google_trends/artifacts/google_trends/lot02_P0_M1_statistical_v03/series.json",
+      "sha256": "ca247fd45cd8d477ab153a8e0af07f6a75778d176ac2ec877f8c9bb0d44c0e08",
+      "bytes": 7558
+    },
+    {
+      "file": "lot02_google_trends/artifacts/google_trends/lot02_P0_M1_statistical_v03/signals.csv",
+      "sha256": "f1e7f4c551e8e955c9d0c873490bd3647164cc0e2bf2ffaf2da0320874d1065f",
+      "bytes": 7580
+    },
+    {
+      "file": "lot02_google_trends/artifacts/google_trends/lot02_P0_M1_statistical_v03/signals.json",
+      "sha256": "934fab0c1b305ea1578e14af34c743e5186c7ef26990b9e0d3e67884f9cbea52",
+      "bytes": 22716
+    },
+    {
+      "file": "lot02_google_trends/data/clean/google_trends_p0_M1_pays.csv",
+      "sha256": "5ec04944c7e53062409718971adfc13f6ec39c2af52faafdae8f89313e1cbec6",
+      "bytes": 391680
+    },
+    {
+      "file": "lot02_google_trends/data/clean/google_trends_p0_WORLD_separe.csv",
+      "sha256": "e1215902a6504f60abfd87caf65c655818bd3ae11cd521359de0171e71b36857",
+      "bytes": 69235
+    },
+    {
+      "file": "lot02_google_trends/data/clean/reference_30_sujets_labels_A_REVOIR.csv",
+      "sha256": "c5f6fca537f9f17086ffa31a945e29216a58e6aaff6179ec9f3b7b0ae9ea63d6",
+      "bytes": 6374
+    },
+    {
+      "file": "lot02_google_trends/reports/audit_lot02.json",
+      "sha256": "c41d6a243b977fc0a620072d68fe92729be6468c34fec358d09489bbd54dfb6e",
+      "bytes": 2377
+    },
+    {
+      "file": "lot02_google_trends/reports/comparaison_p0_vs_reference.csv",
+      "sha256": "912e065fde5dde93083fca1ca9fb00e32c83931ebc2dd091bb151ff377712a56",
+      "bytes": 1639
+    },
+    {
+      "file": "lot02_google_trends/reports/reference_30_series_qualite.csv",
+      "sha256": "7e3458b12da18e2049689922d42b8dad336fee9d164b8768d4c8a3b99420a949",
+      "bytes": 26611
+    },
+    {
+      "file": "lot02_google_trends/scripts/prepare_lot02.py",
+      "sha256": "4b621f4cc56535df924b920c28d72d34a4b45b1ce5ddf2097730c33bae1607a3",
+      "bytes": 11735
+    },
+    {
+      "file": "lot02_google_trends/tests/test_lot02.py",
+      "sha256": "210b698934edfee48abc21ed0f065bf9edabfde35830af6adca9a99181c49238",
+      "bytes": 3013
+    },
+    {
+      "file": "m1_detector/README.md",
+      "sha256": "b4154745aa7693bba03a1cdec6471c6a8862c19c906c6a36b4cfee677dedfef3",
+      "bytes": 8336
+    },
+    {
+      "file": "m1_detector/README_V03_WIKIPEDIA.md",
+      "sha256": "1fe4b108c78747e1895ed8bd55df9747628eba4268a8608cf5a444918b7eec4c",
+      "bytes": 6438
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/20261112_wikipedia_lot01_m1_v03/cleaned.csv",
+      "sha256": "f2794769d8318268c0a714fab5c11343f97bafdb0b94de981c0a5b8d960a5eeb",
+      "bytes": 4749527
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/20261112_wikipedia_lot01_m1_v03/features.csv",
+      "sha256": "fb24cb7fb01b82b74955bb3f1d0577b69be27028d16e907e72f16d7947463a0a",
+      "bytes": 4399952
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/20261112_wikipedia_lot01_m1_v03/input_snapshot.csv",
+      "sha256": "9ffea9cc1b8b751bc115e89b8ec4fea937a1ea5a525b484a197cbc16c2e3ae91",
+      "bytes": 4724132
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/20261112_wikipedia_lot01_m1_v03/manifest.json",
+      "sha256": "71f05dd1660117dfb541fa2e2b3ab81bb98fc66d980eb37e76b6aa725eae61aa",
+      "bytes": 1786
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/20261112_wikipedia_lot01_m1_v03/quality.json",
+      "sha256": "d80dc17a57939de993a03a31fbb79f606b26391a0b64d82d456fe9eb39bef716",
+      "bytes": 771
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/20261112_wikipedia_lot01_m1_v03/runs_quality.csv",
+      "sha256": "001676c0fb4a3d642519fee304db410d4180c7714972fb60a00e4b535d24cbf8",
+      "bytes": 20328
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/20261112_wikipedia_lot01_m1_v03/series.json",
+      "sha256": "d54b56757d0f51e7cd693e9c1ed51a253cda44c805ad9f61f2a0a327a4ff7673",
+      "bytes": 61904
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/20261112_wikipedia_lot01_m1_v03/signals.csv",
+      "sha256": "c31b574eb5597294b67d316a8abf56f2a6a4eb6cc4ec08dc70ce4b136e669542",
+      "bytes": 173010
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/20261112_wikipedia_lot01_m1_v03/signals.json",
+      "sha256": "c76d3a0ff9dba4192e4d88692fe12d70c3b8b9c9a04c844743fe114f9529f587",
+      "bytes": 358630
+    },
+    {
+      "file": "m1_detector/artifacts/wikipedia/LATEST_WIKIPEDIA_RUN.txt",
+      "sha256": "f5679e08bf2e3750c7870688ef59dd70572b00e2110c5b1efec9ad642f0053ed",
+      "bytes": 32
+    },
+    {
+      "file": "m1_detector/config_column_mapping_EXAMPLE.json",
+      "sha256": "6a928b707858184c93a14cab8ed7a4ad6349833c1594900293fd00df955aca9c",
+      "bytes": 248
+    },
+    {
+      "file": "m1_detector/data/reference/reference_cases_TEMPLATE.csv",
+      "sha256": "13e9737632e07e30a8a427e44f0cef25417650859bba5851e1793ee0b2fe8200",
+      "bytes": 109
+    },
+    {
+      "file": "m1_detector/requirements.txt",
+      "sha256": "8643186e7884facaf9509e254d1d84bcde0679880b6fe7741d808e0539bcd773",
+      "bytes": 94
+    },
+    {
+      "file": "m1_detector/scripts/generate_synthetic_demo.py",
+      "sha256": "2a653495393415248f4826d9c7a094ca5b9559173e72cd59ae9663088eefdde4",
+      "bytes": 1330
+    },
+    {
+      "file": "m1_detector/sillage/__init__.py",
+      "sha256": "e1379c2ff2fc7e2dc56d7792dafc99d93df8035fae18bdc9947275e5da81dbc5",
+      "bytes": 98
+    },
+    {
+      "file": "m1_detector/sillage/api.py",
+      "sha256": "30a5f5128b7c4da225c97f6b3409f6a0571900e50f43d6a0e7e8a1554d1f039e",
+      "bytes": 2097
+    },
+    {
+      "file": "m1_detector/sillage/evaluation.py",
+      "sha256": "1e1e372142acbd905c489429d8db251e260ad0e8e7cb07ce2fbef63c2cee413d",
+      "bytes": 4313
+    },
+    {
+      "file": "m1_detector/sillage/pipeline.py",
+      "sha256": "abb82501b024adb62eb95f6f4dcf70d64aeaf2b21064ffa8a76966f1ff37b7fc",
+      "bytes": 13040
+    },
+    {
+      "file": "m1_detector/sillage/wikipedia_api.py",
+      "sha256": "e1a0f69f274f58e9bb7f10fb2d2af2aef17043691bac03273f9bb44624b094cb",
+      "bytes": 2357
+    },
+    {
+      "file": "m1_detector/sillage/wikipedia_m1.py",
+      "sha256": "265af807c96dd464054d568ecf50d58ec1387546e667d8d8e36766bb4e94b89b",
+      "bytes": 11615
+    },
+    {
+      "file": "m1_detector/tests/test_pipeline.py",
+      "sha256": "a9a327eeea91b46b459b0f5d12ab72c43995631700d60aaff7d89ec595389a8d",
+      "bytes": 4664
+    },
+    {
+      "file": "m1_detector/tests/test_wikipedia_m1.py",
+      "sha256": "9f99f01d4491aabdadbfe78200dab01d09877ee812257c9f592ea846286578e2",
+      "bytes": 3875
+    }
+  ]
+}

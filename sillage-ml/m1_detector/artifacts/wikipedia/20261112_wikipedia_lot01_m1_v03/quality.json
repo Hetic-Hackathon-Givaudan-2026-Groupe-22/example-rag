@@ -1,0 +1,23 @@
+{
+  "input_rows": 12690,
+  "validated_rows": 12690,
+  "n_series": 115,
+  "n_ingredients": 16,
+  "n_wikipedia_editions": 10,
+  "n_monthly_contiguous_runs": 120,
+  "n_series_with_gaps": 3,
+  "n_missing_month_positions_within_series": 11,
+  "zero_values_preserved": 42,
+  "country_attributed": false,
+  "is_synthetic": false,
+  "notes": [
+    "Wikimedia pageviews = intérêt documentaire par édition linguistique; pas ventes/demande ni pays.",
+    "Séries segmentées aux mois manquants; aucun zéro ou interpolation inventé.",
+    "Les 12 mois antérieurs sont requis pour produire la première caractéristique M1."
+  ],
+  "n_analyzed_runs": 117,
+  "n_unanalyzed_short_runs": 3,
+  "n_feature_rows": 11277,
+  "n_alerts": 450,
+  "n_series_with_at_least_one_alert": 107
+}

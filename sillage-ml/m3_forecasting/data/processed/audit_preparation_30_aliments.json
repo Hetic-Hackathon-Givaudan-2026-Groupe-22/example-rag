@@ -1,0 +1,28 @@
+{
+  "status": "experimental",
+  "n_ingredients": 30,
+  "n_country_series": 136,
+  "n_monthly_observations": 12784,
+  "n_historical_topics": 29,
+  "n_historical_country_series": 131,
+  "n_pistachio_country_series": 5,
+  "reference_world_rows_excluded": 2820,
+  "reference_non_food_oud_country_rows_excluded": 470,
+  "p0_other_ingredients_excluded": 1598,
+  "n_original_zero_indices_preserved": 4818,
+  "n_quality_flag_inferieur_a_1": 156,
+  "labels_used_as_m3_features": false,
+  "reference_original_sha256": "4b344cd09a62beb7847641b8ff2967501819f195c200c59447977d6021103412",
+  "p0_original_sha256": "36ea7b76860d6d9aa189f2d9aa67959724ee24813e09dbe293aced136636b6cf",
+  "prepared_sha256": "c4e387f9750d4eab3e3ac40d1e7c342f70388ee476b677daa531dcbc4b979f63",
+  "prepared_file": "data/processed/m3_30_foods_geo_2019_2026.csv",
+  "generated_at_utc": "2026-11-12T13:42:24.317416+00:00",
+  "warnings": [
+    "Les indices Google Trends 0-100 sont propres à chaque requête et fenêtre de normalisation",
+    "Le référentiel historique est normalisé sur 2014-2026, la pistache P0 sur 2019-2026",
+    "Normalisation avec une fenêtre se terminant en octobre 2026: le backtest n’est pas un rejeu prospectif sans information future dans l’échelle",
+    "Les labels buzz/tendance ne sont pas intégrés aux features M3; pistache provisoire",
+    "Aucun mois ou zéro n’a été fabriqué, les zéros originaux sont préservés",
+    "WORLD exclu des séries géographiques"
+  ]
+}

@@ -1,0 +1,17 @@
+split,model,dataset_partition,mae,n_predictions,n_ingredients
+final_holdout,holt_damped,historical_reference_29,13.654880520931016,393,29
+final_holdout,holt_damped,pistachio_p0_provisional,11.385512961725547,15,1
+final_holdout,last_value,historical_reference_29,10.904580152671755,393,29
+final_holdout,last_value,pistachio_p0_provisional,12.8,15,1
+final_holdout,ridge_direct,historical_reference_29,12.284628517128933,393,29
+final_holdout,ridge_direct,pistachio_p0_provisional,8.864986947622851,15,1
+final_holdout,seasonal_naive_12,historical_reference_29,10.419847328244275,393,29
+final_holdout,seasonal_naive_12,pistachio_p0_provisional,3.3333333333333335,15,1
+selection,holt_damped,historical_reference_29,7.9714270178525055,3930,29
+selection,holt_damped,pistachio_p0_provisional,12.915831707951648,150,1
+selection,last_value,historical_reference_29,7.429770992366413,3930,29
+selection,last_value,pistachio_p0_provisional,13.466666666666667,150,1
+selection,ridge_direct,historical_reference_29,8.173119269376395,3930,29
+selection,ridge_direct,pistachio_p0_provisional,13.810260453026759,150,1
+selection,seasonal_naive_12,historical_reference_29,10.622773536895675,3930,29
+selection,seasonal_naive_12,pistachio_p0_provisional,15.353333333333333,150,1

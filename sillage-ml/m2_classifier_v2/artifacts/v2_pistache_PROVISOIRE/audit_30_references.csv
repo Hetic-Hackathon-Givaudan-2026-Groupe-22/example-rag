@@ -1,0 +1,31 @@
+topic_id,terme,label_reference,n_zones,n_observations,status,reference_verified
+acai_bowl,Açaí bowl,tendance,5,470,ok,False
+baked_feta_pasta,Baked feta pasta,buzz,5,470,ok,False
+birria,Birria,tendance,5,470,ok,False
+butter_board,Butter board,buzz,5,470,ok,False
+chamoy_pickle,Chamoy pickle,buzz,3,282,ok,False
+charcoal_ice_cream,Charcoal ice cream,buzz,4,376,ok,False
+cloud_bread,Cloud bread,buzz,5,470,ok,False
+cold_brew_coffee,Cold brew,tendance,5,470,ok,False
+dalgona_coffee,Dalgona coffee,buzz,5,470,ok,False
+dubai_chocolate,Dubai chocolate,tendance,5,470,ok,False
+espresso_martini,Espresso martini,tendance,5,470,ok,False
+freakshake,Freakshake,buzz,3,282,ok,False
+gochujang,Gochujang,tendance,5,470,ok,False
+grimace_shake,Grimace Shake,buzz,5,470,ok,False
+hot_honey,Hot honey,tendance,5,470,ok,False
+kombucha,Kombucha,tendance,5,470,ok,False
+matcha,Matcha,tendance,5,470,ok,False
+mochi,Mochi,tendance,5,470,ok,False
+natures_cereal,Nature's cereal,buzz,2,188,ok,False
+oat_milk,Lait d'avoine,tendance,5,470,ok,False
+pancake_cereal,Pancake cereal,buzz,4,376,ok,False
+pink_sauce,Pink Sauce,buzz,5,470,ok,False
+pistachio,Pistache (pistachio),tendance,5,470,ok,False
+poke_bowl,Poke bowl,tendance,5,470,ok,False
+rainbow_bagel,Rainbow bagel,buzz,5,470,ok,False
+raindrop_cake,Raindrop cake,buzz,4,376,ok,False
+ube,Ube,tendance,5,470,ok,False
+unicorn_frappuccino,Unicorn Frappuccino,buzz,5,470,ok,False
+whipped_lemonade,Whipped lemonade,buzz,1,94,ok,False
+yuzu,Yuzu,tendance,5,470,ok,False
